@@ -34,7 +34,6 @@ const useStyles = makeStyles((theme) => ({
 
 const App = () => {
   const classes = useStyles();
-
   return (
     <div className={classes.wrapper}>
       <AppBar className={classes.appBar} position="static" color="inherit">
